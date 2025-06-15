@@ -29,7 +29,7 @@ def define_categories(comments: list[str]) -> list[dict]:
     define_categories_prompt = define_categories_prompt.format(comments=comment_list_str)
 
     completion = client.beta.chat.completions.parse(
-        model="o3",
+        model="gpt-4.1",
         messages=[
             {"role": "system", "content": define_categories_prompt},
             {"role": "user", "content": comment_list_str}

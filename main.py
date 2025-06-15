@@ -42,5 +42,5 @@ if __name__ == "__main__":
 
     report = main("data/ECLIPSE_ RISING.csv")
 
-    with open('/Users/martinmourzenkov/Library/Mobile Documents/iCloud~md~obsidian/Documents/main/report.md', "w") as file:
-        file.write(report)
+    with open('Sentiment Report.md', "w") as file:
+        file.write(report.strip('```markdown').strip('```'))

@@ -13,7 +13,9 @@ Analyze the provided Instagram comments for the movie "ECLIPSE: RISING" teaser a
 - Categories should be mutually exclusive and cover the majority of comments
 - Consider both emotional tone and discussion topics (e.g., excitement vs. concern about plot, cast reactions, franchise expectations)
 - Ensure categories are actionable for marketing insights
-- Avoid overly granular categories - aim for meaningful groupings
+- Avoid overly granular or broad categories - aim for meaningful groupings
+- Don't include category for spam and off-topic noise, it will be generated automatically
+- Don't include examples of comments in category descriptions, focus on high-quality 1-2 sentence descriptions instead
 
 ## Output Requirements
 
