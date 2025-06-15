@@ -25,7 +25,7 @@ def create_comment_list_class(category_names: list[str]) -> BaseModel:
     comment_class = create_model(
         'Comment',
         text=(str, Field(description="The text of the comment as it appears in the original data")),
-        category=(str, Field(description="The category of the comment", enum=category_names+["Outlier"]))
+        category=(str, Field(description="The category of the comment", enum=category_names+["Outliers"]))
     )
     
     # Create and return CommentList class

@@ -1,7 +1,7 @@
 from openai import OpenAI
 import json
 import pandas as pd
-from output_formats import create_comment_list_class
+from source.output_formats import create_comment_list_class
 import dotenv
 import os
 
